@@ -1,0 +1,7 @@
+%h1= @doc.title
+%h1= @doc.content
+
+= link_to "All Docs", docs_path  
+= link_to "Fix Doc", edit_doc_path9@doc)
+= link_to "Trash It", doc_path(@doc), method: :delete, data: { confirm:"R U SURE!"}
+= link_to "Create Doc", new_dodc_path
